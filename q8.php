@@ -11,7 +11,7 @@ for($i = 0; $i< $count; $i++) {
 
 	for($j = 0; $j<13; $j++) {
 		$substring = substr($numbers ,$i+$j ,1);  //部分文字を抽出
-		$product *=  $substring;
+		$product *=  (int)$substring;
 	}
 
 	if($answer < $product) {

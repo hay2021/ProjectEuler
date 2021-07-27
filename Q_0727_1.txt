@@ -1,0 +1,49 @@
+<?php
+
+//親カード
+$a = 2;
+$b = 6;
+
+//出力
+$n = 2;
+
+//子カード1
+$a_1 = 4;
+$b_1 = 5;
+    
+if($a>$a_1){
+    echo 'High';
+
+} elseif ($a<$a_1) {
+    echo 'Low';
+    
+} elseif ($a=$a_1) {
+    
+    if($b>$b_1){
+        echo 'High';
+    } elseif ($b<$b_1) {
+        echo 'Low';
+    } 
+}
+
+
+//子カード2
+$a_2 = 2;
+$b_2 = 1;
+
+if($a>$a_2){
+    echo 'High';
+
+} elseif ($a<$a_2) {
+    echo 'Low';
+    
+} elseif ($a=$a_2) {
+    
+    if($b>$b_2){
+        echo 'High';
+    } elseif ($b<$b_2) {
+        echo 'Low';
+    } 
+}
+
+?>

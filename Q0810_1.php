@@ -4,7 +4,7 @@
 // 200万以下の全ての素数の和を求めよ.
 
 $max = 200000;
-$prime_number = 0;
+$prime_numbers = 0;
 
 for ($i = 1; $i <= $max; $i++) {
     $count = 0;
